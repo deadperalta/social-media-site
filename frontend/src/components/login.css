@@ -1,0 +1,49 @@
+.signIn{
+    background-image: url("https://cdn.ebaumsworld.com/2019/08/19/034107/86045061/meme-templates-2019-16.jpg");
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginLogo{
+    height: 20px;
+    width: 200px; 
+    object-fit: contain;
+    padding: 10px 0px;
+}
+
+.loginForm{
+    position: relative;
+    top: 100px;
+    right: 250px;
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid rgb(129, 121, 121);
+    border-radius: 1px;
+}
+
+.loginForm2{
+    position: relative;
+    top: 105px;
+    right: 250px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 5px;
+    border: 1px solid rgb(129, 121, 121);
+    border-radius: 1px;
+}
+
+#login-btn{
+    background-color: #1773EA;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+   
+    cursor: pointer;
+    margin-top: 8px;
+}

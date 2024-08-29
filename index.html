@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="heading">Holidaymaker - Summer Camp</h1>
+   
+      <form id="registration">
+        <table>
+        <tr>
+          <td><label>Full Name</label></td>
+          <td>
+            <input
+              type="text"
+              id="full-name"
+              onkeydown="return /[a-zA-Z0-9 ]/i.test(event.key)"
+              placeholder="Enter your name"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label>Gender</label></td>
+          <td><input type="radio" id="male" name="fav_language" value="Male" />
+          <label for="male">Male</label
+          ></td>
+          <td><input type="radio" id="female" name="fav_language" value="Female" />
+          <label for="female">Female</label
+          ></td>
+        </tr>
+
+        <tr>
+          <td><label>Date of Birth</label></td>
+          <td><input type="date" id="dob" /></td>
+        </tr>
+
+        <tr>
+          <td><label>Email id (username)</label></td>
+          <td><input type="email" id="email-id" required /></td>
+        </tr>
+
+        <tr>
+          <td><label>Password</label></td>
+          <td><input type="password" id="pswd" /></td>
+        </tr>
+
+        <tr>
+          <td><label>Communication Address</label></td>
+          <td>
+            <textarea
+              id="address"
+              cols="30"
+              rows="3"
+              placeholder="Enter your address"
+            ></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label>Activites to register</label></td>
+          <td><input type="radio" id="nature-hunt" value="Nature Hunt" />
+          <label for="nature-hunt">Nature Hunt</label
+          ></td><br />
+          
+          <td><input
+            type="radio"
+            id="cooking"
+            value="Cooking"
+          />
+          <label for="cooking">Cooking</label
+          ></td><br />
+
+          <td>
+          <input
+            type="radio"
+            id="swimming"
+            name="fav_language"
+            value="Swimming"
+          />
+          <label for="swimming">Swimming</label
+          ></td><br />
+        </tr>
+
+        <tr>
+          <td><label>School Name</label></td>
+          <td>
+            <input
+              type="text"
+              id="school-name"
+              placeholder="Enter your school name"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label>Student ID Proof (jpeg/pdf)</label></td>
+          <td>
+            <input type="file" multiple accept="file/pdf, image/jpeg" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label>Grade</label></td>
+          <td>
+            <select id="grade">
+              <option value="">Select your school grade</option>
+              <option value="primary">Primary</option>
+              <option value="secondary">Secondary</option>
+              <option value="high school">High School</option>
+            </select>
+          </td>
+        </tr>
+    </table>
+
+        <input type="submit" id="submit" />
+ 
+      </form>
+      
+    
+  </body>
+</html>
